@@ -1,0 +1,560 @@
+* {
+    margin:0 ;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: white;
+    margin-top: 60px;
+}
+.header {
+    width: 100%;
+    display: flex;
+    background-color:rgb(28, 3, 126);  
+    display: flex;
+    justify-content: start; 
+    flex-direction: row-reverse;
+}
+
+.logo {
+    
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.navbar-dark bg-dark {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+div.container-fluid {
+    background-repeat: no-repeat;
+   
+    
+}
+
+img.d-block {
+    margin-left: 80px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.navbar-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.heroimg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    
+}
+
+#fotohero3 {
+    display: none;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(209, 210, 213);
+}
+
+.main p {
+    margin: 20px;
+    text-align: justify;
+    font-family: "Charm", serif;
+    font-size: 17px;
+}
+.p1 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.p2 {
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.p3 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.p4 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.p5 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.p6 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.p7 {
+    text-transform: uppercase;
+    font-weight: 800;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.enviar {
+    height: 60px;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.contactos {
+    text-align:center;
+    border: 1px solid black;
+    margin: 20px;
+    width: 90%;
+    height: 300px;
+    padding: 0 120px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.contacto {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.p8, .p9, .p10 {
+    font-size: 15px;
+}
+
+img.imglogin {
+    width:40%;
+    display: flex;
+    justify-content: center;
+}
+
+.nosotros {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.p11 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: "Charm", serif;
+    font-size: 40px;
+}
+
+.p12 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.p13 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    gap:5px;
+    
+}
+   
+
+.imagenes {
+    width: 70%;
+}
+
+.fila1 {
+    display: flex;
+    justify-content: center;
+    gap:7px;
+    
+}
+
+.fila2 {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+.iconos {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+a {
+    width: 50px;
+}
+
+#contactenos {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.division {
+    width: 100%;
+    height: 30px;
+    background-color: #b7b8ba;
+}
+
+.p14 {
+    font-family: "Charm", serif;
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+p.card-text {
+    font-size: 11px;
+}
+
+.p15 {
+    font-family: "Charm", serif;
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.form-group {
+   margin: 20px;
+}
+
+.boton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn.btn-success {
+    width: 90%;
+    background-color: #1c037e;
+}
+
+.card {
+    border-radius: 0;
+    margin: 1px solid black;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.cartas {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+}
+
+p.card-text {
+    font-size: 14px;
+}
+
+.colorservicio {
+    background-color: #ccccce;
+}
+
+.colornosotros {
+    background-color: #ccccce;
+}
+
+.fotohero2 {
+    display: none;
+}
+
+.fotohero3 {
+    display: none;
+}
+
+.divnav {
+    display: none;
+}
+
+@media (min-width:768px ) {
+    
+.fotohero2 {
+    display: none;
+ }
+
+ #imagenhero2 {
+    width: 100%;
+    height: auto;
+ }
+
+ .form-control {
+    width: 65%;
+    
+ }
+
+ .form-group {
+    display: flex;
+    justify-content: center;
+ }
+
+ .btn.btn-success {
+    width: 60%;
+ }
+
+ .contactos {
+    padding-top: 40px;
+    width: 60%;
+    background-color: rgb(209, 210, 213);
+ }
+
+ .divcontactos {
+    display: flex;
+    justify-content: center;
+   
+ }
+ .fotohero3 {
+    display: none;
+}
+
+img.imglogin {
+    width: 15%;
+}
+
+.divnav {
+    display: none;
+}
+
+}
+
+
+@media (min-width: 1024px) {
+    
+#burger {
+    display: none;
+}
+
+#concontainer{
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #537fe7;
+    color:white;
+    height: 100px;
+    text-decoration: none;
+}
+
+a {
+    width: 100px;
+    margin-top: 20px;
+    background-color: #537fe7;
+    color:white;
+    text-decoration: none;
+}
+
+#contactenos {
+    width: 100px;
+}
+
+nav.navbar.navbar {
+    background-color: #1c037e;
+}
+
+a#alogo {
+    background-color: #1c037e;
+}
+
+.divnav {
+    display: block;
+}
+
+.fotohero3 {
+    display: block;
+}
+
+.fotohero {
+    display: none;
+}
+
+#concontainer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.logop {
+    display: flex;
+    flex-direction: row
+}
+
+.p16 {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 400px;
+    margin-top: 30px;
+    font-family: "Charm", serif;
+}
+.logop {
+    display: flex;
+    justify-content: space-between;
+}
+#imagenhero3 {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+#homme {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#fotohero3 {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+}
+
+.lead {
+    width: 100%;
+
+}
+
+#welcome {
+    width: 80%;
+    margin-top: 0;
+}
+
+.colorservicio {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.p14 {
+    background-color: #ccccce;
+    margin: 0;
+    padding: 0;
+}
+
+#card1, #card2, #card3, #card4 {
+    height: 500px;
+}
+
+#nuestro-servicio {
+    padding-bottom: 30px;
+}
+
+.p15 {
+    width: 15%;
+}
+
+.formu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.divnav {
+    position: fixed;
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 50px;
+   
+}
+.forma-grupo {
+    background-color: #b7b8ba;
+    padding-top: 10px;
+    width: 50%;
+   
+    
+}
+
+.forma-forma {
+    width: 85%;
+    margin-left: 100px;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.btn.btn-success {
+    width: 80px;
+}
+input {
+    width: 100%;
+}
+
+#pwd, #usrr {
+    display: none;
+}
+
+#fotohero3 {
+    display: block;
+}
+
+.superformu {
+    display: none;
+}
+
+
+
+}
