@@ -17,6 +17,29 @@ body {
     flex-direction: row-reverse;
 }
 
+.imagenesic {
+    margin-left: 70px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    
+    
+} 
+
+#filas {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p11 {
+    display: none;
+}
+
+.presnosotros {
+    margin-left: -100px;
+}
 .logo {
     
     padding: 20px;
@@ -196,37 +219,74 @@ img.imglogin {
     border-radius: 15px;
 }
 
-.iconos {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    flex-direction: column;
-    gap:5px;
-    
-}
+
    
 
 .imagenes {
     width: 70%;
 }
 
-.fila1 {
-    display: flex;
-    justify-content: center;
-    gap:7px;
-    
+.imagenesic {
+    width: 7%;
 }
 
-.fila2 {
-    display: flex;
-    justify-content: center;
-    gap: 7px;
+.p16 {
+    display: none;
 }
 
-.iconos {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    
+.logito {
+    display:none;
+}
+
+.logito2 {
+    display:none;
+}
+
+.formumm {
+    display:none;
+}
+
+.p17 {
+    display: none;
+}
+
+.logito3 {
+    display:none;
+}
+
+.contactos {
+    padding: 10px 60px;
+}
+
+
+.lead {
+    margin: 10px;
+}
+
+.presnosotros {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 170px;
+}
+
+.contactos {
+    padding-top: 50px;
+}
+footer {
+    display: none;
+}
+.logito4 {
+    display: none;
+}
+.p14 {
+    background-color: #ccccce;
+    padding-bottom: 0;
+}
+#nuestroservicio {
+    background-color: #ccccce;
+    padding: 0 !important;
+    margin: 0;
 }
 
 a {
@@ -328,6 +388,12 @@ p.card-text {
     display: none;
  }
 
+
+ .presnosotros {
+    margin-left: 300px;
+ }
+
+ 
  #imagenhero2 {
     width: 100%;
     height: auto;
@@ -375,6 +441,75 @@ img.imglogin {
 
 @media (min-width: 1024px) {
     
+    .divlogito {
+        display: block;
+    }
+
+.logito {
+    display: block;
+}
+
+.logito2 {
+    display: block;
+}
+
+.p17 {
+    display: block;
+}
+
+.logito4 {
+    display:block;
+    margin-right: -200px;
+    
+}
+
+.card-body {
+    padding-bottom: 500px;
+}
+
+.p17 {
+    font-size: 20px !important;
+}
+.card-text {
+    font-size: 15px !important;
+    margin: 0 !important;
+}
+.centrarlogito {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+.contenedorlogo4 {
+    display: flex;
+    justify-content: flex-end;
+}
+.divlogito4 {
+    display: flex;
+    justify-content: flex-end;
+}
+.iconos {
+    display: none;
+}
+
+footer {
+    display: block;
+}
+
+p.p11 {
+    margin-left: -100px;
+}
+
+#nosotros {
+    display: flex;
+    justify-content: center;
+}
+
+.contnosotros {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 #burger {
     display: none;
 }
@@ -555,6 +690,285 @@ input {
     display: none;
 }
 
+.p16 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 40px;
+}
+
+#exampleFormControlInput1 {
+    width: 70%;
+    margin-left: 40px;
+    border: 1px solid black;
+    border-radius: 0;
+    height: 30px;
+}
+
+#labelnombre {
+    width: 65%;
+    margin-left: 0px;
+}
+
+#inputState {
+    width: 70%;
+    margin-left: 40px;
+    border: 1px solid black;
+    border-radius: 0;
+    height: 30px;
+}
+
+#seledit {
+    width: 70%;
+    margin-left: 40px;
+    border: 1px solid black;
+    border-radius: 0;
+    height: 30px;
+    display: flex;
+    
+    
+}
+
+#labelnombre {
+    margin-top: 20px;
+}
+
+#mensaje {
+    border: 1px solid black;
+    height: 180px;
+    width: 70%;
+    margin-left: 40px;
+    border-radius: 0;
+    display: flex;
+    gap: 0px;
+    
+}
+
+#menslabel {
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 0;
+    gap: 0;
+    width: 93%;
+}
+
+.formumm {
+    background-color: #b7b8ba;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    
+}
+.espacioform {
+    display: flex;
+    flex-direction: row;
+}
+
+.direccion {
+    padding: 0 100px;
+    text-align: center;
+}
+
+.contactos {
+    display: none;
+}
+
+.submit {
+    width: 70px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin-right: 90px;
+    border: 1px solid black;
+}
+
+.botonito {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.p17 {
+    font-size: 25px;
+}
+
+p.card-text {
+    font-size: 18px;
+    margin-top: 35px;
+}
+
+.cartas {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 80%;
+}
+
+.card-body {
+    padding: 30px;
+    
+}
+h5 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.imagenesic {
+    background-color: #b7b8ba;
+    width: 30%;
+}
+
+a#a1.items, a#a2.items, a#a3.items, a#a4.items, a#a5.items, a#a6.items, a#a7.items, a#a8.items {
+    width: 10%;
+    background-color: #ccccce; 
+}
+.a8 {
+    background-color: #ccccce;
+    width: 10%;
+}
+
+.fila1 {
+    display: flex;
+    justify-content: center;
+}
+
+.logito {
+    width: 7%;
+    margin-right: -10%;
+}
+
+.divlogito {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.colorservicio {
+    padding-bottom: 300px;
+    
+}
+
+.logito2 {
+    width: 9%;
+    margin-right: -50%;
+}
+
+.divlogito2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 500px;
+
+}
+
+.contenedorlogo {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    background-color: #ccccce;
+}
+
+.colorservicio{
+    margin:0;
+    padding: 0;
+}
+
+.direccion {
+    height: 50px;
+}
+.contenedorlogo3 {
+    background-color: white;
+    width: 100%;
+}
+
+.divlogito3 {
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+}
+
+.logito3 {
+    width: 10%;
+    margin-right: 20px;
+}
+.contenedorlogo3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.espacioform {
+    height: 50%;
+}
+
+.formumm {
+    margin-bottom: 10px;
+}
+
+.presnosotros {
+    display: none;
+}
+
+.divlogito4 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.logito4 {
+    width: 100%;
+    margin-right: -300px;
+}
+.contenedorlogo4 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.centrarlogito {
+    display: flex;
+    justify-content: flex-end;
+    width: 6%;
+    margin-right: -700px;
+    
+}
+
+.dfooter {
+    background-color: #9fa0a2;
+}
+
+.terms {
+    margin-left: 300px;
+    background-color: #9fa0a2;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
+
+
+
+
+
+
+
