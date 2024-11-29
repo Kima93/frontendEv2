@@ -932,6 +932,48 @@ a#a1.items, a#a2.items, a#a3.items, a#a4.items, a#a5.items, a#a6.items, a#a7.ite
     margin-right: -200px !important;
 }
 
+#formularito {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+#botoni {
+    margin-right: -20px;
+}
+
+#superform {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#exampleFormControlInput1 {
+    width: 100%;
+    margin: 1px auto;
+}
+
+#seledit {
+    width: 100%;
+    margin: 1px auto;
+}
+
+#mensaje {
+    width: 100%;
+    margin: 1px auto;
+}
+
+#menslabel {
+    margin: 0px;
+}
+
+#labelnombre {
+    margin: 0px;
+}
+
 #logito {
 
     margin-right: -100px !important;
