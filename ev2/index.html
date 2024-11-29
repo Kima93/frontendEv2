@@ -13,13 +13,13 @@
 <body>
     <header class="header fixed-top">
         <!-- Barra de navegación -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-$blue-900" >
+        <nav class="navbar  navbar-dark bg-$blue-900" >
             <div class="container d-flex justify-content-between align-items-center" id="concontainer">
-            <div class="logop">
+            <div class="logop" id="plogo">
                 <a class="navbar-brand" href="#" id="alogo"> 
-                    <img src="logoingeniodark.png" alt="Logo" class="d-block mx-auto" style="max-height: 50px;" id="logocentro">
+                    <img src="logoingeniodark.png" alt="Logo" class="d-block mx-auto" style="height: 50px;" id="logocentro">
                 </a> <br>
-                <p class="p16">Consultoría y Desarrollo de Software</p>
+                <p class="p16" id="pa16">Consultoría y Desarrollo de Software</p>
                     
 
 
@@ -36,21 +36,21 @@
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-$blue-900 p-3 rounded shadow">
                 <!-- Elementos del menú en una lista -->
-                <ul class="navbar-nav">
+                <ul class="navbar-nav" id="nav-navbar">
                     <li class="nav-item">
                         <a class="nav-link text-light" href="#menu">Menú</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#home">Home</a>
+                    <li class="nav-item" id="item-nav">
+                        <a class="nav-link text-light" href="#bienvenido">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#nuestro-servicio">Nuestro Servicio</a>
+                        <a class="nav-link text-light" href="#consultoria">Nuestro Servicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#contactenos">Contáctenos</a>
+                        <a class="nav-link text-light" href="#usr">Contáctenos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#nosotros">Nosotros</a>
+                        <a class="nav-link text-light" href="#mission">Nosotros</a>
                     </li>
                 </ul>
             </div>
@@ -60,10 +60,10 @@
     
     <div class="divnav">
     <div class="navbar ">
-        <a class="buton" id="homme"  href="#home" class="btn btn-primary">Home</a>
-        <a class="buton" id="nuestros-servicios" href="#nuestro-servicio" class="btn btn-primary">Nuestros Servicios</a>
-        <a class="buton" id="contactenos" href="#contactenos" class="btn btn-primary">Contáctenos</a>
-        <a class="buton" id="nosotros" href="#nosotros" class="btn btn-primary">Nosotros</a>
+        <a class="buton" id="homme"  href="#bienvenido" class="btn btn-primary">Home</a>
+        <a class="buton" id="nuestros-servicios" href="#consultoria" class="btn btn-primary">Nuestros Servicios</a>
+        <a class="buton" id="contactenos" href="#formularito" class="btn btn-primary">Contáctenos</a>
+        <a class="buton" id="nosotros" href="#mission" class="btn btn-primary">Nosotros</a>
     </div>
 </div>
 <main>
@@ -80,10 +80,10 @@
                 </div>
 
         <div class="col-lg-6 mx-auto" id="welcome">
-          <p class="lead mb-4">Bienvenido a ConIngenio Somos una empresa innovadora dedicada a ofrecer soluciones digitales de vanguardia para ayudar a nuestros clientes a alcanzar sus objetivos. Desde consultoría digital hasta desarrollo de software a medida, nuestro equipo altamente capacitado está comprometido con la excelencia y la satisfacción del cliente. Explora nuestro sitio para descubrir cómo podemos ayudarte a impulsar tu negocio hacia el éxito en la era digital.
+          <p class="lead mb-4" id="bienvenido">Bienvenido a ConIngenio Somos una empresa innovadora dedicada a ofrecer soluciones digitales de vanguardia para ayudar a nuestros clientes a alcanzar sus objetivos. Desde consultoría digital hasta desarrollo de software a medida, nuestro equipo altamente capacitado está comprometido con la excelencia y la satisfacción del cliente. Explora nuestro sitio para descubrir cómo podemos ayudarte a impulsar tu negocio hacia el éxito en la era digital.
         </p>
-        <div class="divlogito">
-          <img src="login.png" class="logito">
+        <div class="divlogito" id="divvlogito">
+          <img src="login.png" id="logito">
         </div>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
             
@@ -91,11 +91,11 @@
         </div>
       </div>
       <div class="division"></div>
-      <p class="p14 p-0" id="nuestro-servicio">Nuestros Servicios</p>
+      
       <div class="colorservicio">
         
-      <div class="card " style="width: 90%" mx-auto id="card1" >
-        <div class="card-header"><strong>@Consultoría Digital</strong></div>
+      <div class="card border-dark mb-3 mx-auto bg-white" style="width: 90%" mx-auto id="card2">
+        <div class="card-header" id="consultoria"><strong>@Consultoría Digital</strong></div>
         <div class="card-body text-dark">
         
           <p class="card-text">Ofrecemos asesoramiento estratégico y soluciones personalizadas para optimizar la presencia en línea de las empresas. Desde la mejora de la experiencia del usuario hasta la implementación de estrategias de marketing digital, nuestra consultoría digital impulsa el crecimiento y la innovación en el mundo digital.</p>
@@ -128,8 +128,8 @@
     </div>
     
     <div class="contenedorlogo">
-      <div class="divlogito2">
-        <img src="login.png" class="logito2">
+      <div class="divlogito2 m-0">
+        <img src="login.png" id="logito2">
       </div>
     </div>
     
@@ -138,7 +138,7 @@
 
     <p class="p16">Contáctenos</p>
     <div class="espacioform">
-    <form class="formumm">
+    <form class="formumm" id="formularito">
 
       <label for="exampleFormControlInput1" id="labelnombre">Nombre</label>
       <input type="email" class="form-control" id="exampleFormControlInput1">
@@ -236,8 +236,8 @@
     </div>
     </div>
     <div class="contenedorlogo3">
-      <div class="divlogito3">
-        <img src="login.png" class="logito3">
+      <div id="divlogito3">
+        <img src="login.png" id="logito3">
       </div>
     </div>
 </div>
@@ -245,8 +245,8 @@
     <div class="division"></div>
     
  <div class="nosotros" id="nosotros">
-  <div class="presnosotros">
-    <img src="login.png" class="imglogin">
+  <div class="presnosotros m-0" id="nosotrospres">
+    <img src="login.png" id="imglogin" class="m-0">
     <br>
   </div>
     <div class="contnosotros">
@@ -255,7 +255,7 @@
   
     <div class="cartas">
     <div class="card mx-auto" style="width: 90%;">
-        <div class="card-body">
+        <div class="card-body" id="mission">
           <h5 class="card-title">Misión</h5>
           <p class="card-text">Nuestra misión es brindar soluciones innovadoras y de alta calidad que satisfagan las necesidades y expectativas de nuestros clientes. Nos comprometemos a ofrecer productos y servicios que impulsen el éxito y la transformación en sus negocios, manteniendo siempre un enfoque centrado en el cliente, la excelencia y la responsabilidad social.
         </p> 
@@ -314,10 +314,10 @@
     </div>
  </div> 
 
- <div class="centrarlogito">
+ <!-- <div class="centrarlogito"> -->
   <div class="contenedorlogo4">
     <div class="divlogito4">
-      <img src="login.png" class="logito4">
+      <img src="login.png" id="logito4" class="ml-5">
     </div>
   </div> 
 </div>

@@ -17,14 +17,47 @@ body {
     flex-direction: row-reverse;
 }
 
+#nosotrospres {
+    margin: 0px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nosotrospres {
+    display: flex;
+    justify-content: center;
+}
+
+#logito4 {
+    display: none;
+}
+.cartas {
+    margin-bottom: 30px;
+}
+
+#imglogin {
+    margin-left: 75px;
+    width: 30%;
+}
+#logito {
+    display: none;
+}
 .imagenesic {
     margin-left: 70px;
     padding-bottom: 10px;
-    padding-top: 10px;
-
-    
-    
+    padding-top: 10px;    
 } 
+
+#logito3 {
+    display:none;
+}
+
+#logito2 {
+    display: none;
+}
 
 #filas {
     display: flex;
@@ -384,11 +417,46 @@ p.card-text {
 
 @media (min-width:768px ) {
     
+#imglogin {
+    margin-left: -20px;
+}
+#logito4 {
+    width: 9%;
+    margin-left: 500px;
+}
+
+.divlogito4 {
+    background-color: #ccccce;
+}
+
+#concontainer {
+    background-color: transparent;
+}
+
+#alogo {
+    height: 10px;
+    margin-bottom: 100px;
+}
+#nav-navbar {
+    background-color: white;
+}
+ #pa16 {
+    margin: 0;
+    margin-left: 250px;
+ }
+
+#logocentro {
+    margin-bottom: 20px;
+} 
 .fotohero2 {
     display: none;
  }
-
-
+ #logito3 {
+    display:none;
+}
+#logito2 {
+    display: none;
+}
  .presnosotros {
     margin-left: 300px;
  }
@@ -445,12 +513,27 @@ img.imglogin {
         display: block;
     }
 
-.logito {
-    display: block;
+#bienvenido {
+    margin-top: 100px;
+    font-size: 25px;
 }
 
-.logito2 {
+#logito {
     display: block;
+    width:12%;
+    margin-right: -100px;
+    margin-bottom: -30px;
+}
+
+#logito2 {
+    display: block;
+    width: 9%;
+    margin: 0;
+}
+
+#logito3 {
+    display: block;
+    width: 30%;
 }
 
 .p17 {
@@ -842,13 +925,18 @@ a#a1.items, a#a2.items, a#a3.items, a#a4.items, a#a5.items, a#a6.items, a#a7.ite
     width: 7%;
     margin-right: -10%;
 }
-
-.divlogito {
+#divvlogito {
     display: flex;
     justify-content: flex-end;
     width: 100%;
+    margin-right: -200px !important;
 }
 
+#logito {
+
+    margin-right: -190px !important;
+    margin-bottom: -100px;
+}
 .colorservicio {
     padding-bottom: 300px;
     
@@ -887,10 +975,10 @@ a#a1.items, a#a2.items, a#a3.items, a#a4.items, a#a5.items, a#a6.items, a#a7.ite
     width: 100%;
 }
 
-.divlogito3 {
+#divlogito3 {
     display: flex;
     justify-content: flex-end;
-    width: 60%;
+    width: 30%;
 }
 
 .logito3 {
